@@ -210,11 +210,12 @@ void heap_free(void* ptr) {
 
 /*
     TODO:
-        FIXA DUMPCHUNKSINFROMATION. (SÅ MAN BÄTTRE KAN SEE ALLA CHUNKS SOM ÄR ALLOKERAD I HEAP)
+        FIXA DUMPCHUNKSINFROMATION. (SÅ MAN BÄTTRE KAN SE ALLA CHUNKS SOM ÄR ALLOKERAD I HEAP)
 */
 
 int main() {
     
+    /*Testing*/
     char* ptr = heap_malloc(18);
     for(int i = 0; i < 10; i++) {
         ptr[i] = 'A' + i;
